@@ -1,26 +1,30 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Contact from './components/home/contact/Contact';
+import Navbar from './components/home/navbar/Navbar';
+import Text from './components/home/text/Text';
+import ImageSlider from './components/home/image-slider/ImageSlider';
+import LinkCards from './components/home/cards/LinkCards';
+import Form from './components/home/form/Forms'
+import Footer from './components/home/footer/Footer';
+import ShortVideo from './components/home/shortVideo/ShortVideo';
+import MainText from './components/home/mainText/MainText';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Contact />
+      <Navbar />
+      <Text />
+      <ImageSlider />
+      <MainText />
+      <LinkCards />
+      <ShortVideo />
+      <Footer />
     </div>
+
   );
 }
-
 export default App;

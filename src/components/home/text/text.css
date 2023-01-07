@@ -1,0 +1,19 @@
+.text-area{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
+.heading{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family:'Bebas Neue', cursive;
+    /* border: 2px solid red; */
+    margin: 10px 10px 10px 10px;
+
+}
+@media (max-width:320px){
+    .heading {
+        font-size: 15px;
+      }
+}

@@ -1,0 +1,20 @@
+.contact-img{
+    width: 20px;
+}
+.top-conatct{
+    text-align: center;
+    font-size: 18px;
+}
+.top-conatct a{
+    color: red;
+}
+.space-btw{
+    margin-left: 30px;
+}
+
+
+@media (max-width:440px){
+    .top-conatct{
+        display: none;
+    }
+}

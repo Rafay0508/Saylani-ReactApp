@@ -1,0 +1,28 @@
+.slider-container{
+  width: 100%;
+  margin: 0% auto;
+}
+.ant-carousel .slick-slide {
+  z-index: -1;
+    text-align: center;
+    height: 400px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+    /* margin-top: 30px; */
+    border: 4px solid rgb(209, 200, 200);
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff; 
+  }
+  .slider-image{
+    width: 100%;
+    height: 400px;
+  }
+
+@media(min-width:1024px){
+  .slider-container{
+    width: 95%
+  }
+}

@@ -1,0 +1,47 @@
+.video-container p{
+    font-size: 4rem;
+    margin: 5% 5px 2% 0% ;
+    text-align: center;
+    font-family: initial;
+    font-weight: bold;
+    margin-top: 106;
+}
+video{
+    width: 60%;
+    margin: 0% 5px 2% 20% ;
+}
+@media (max-width:768px){
+    video{
+        width: 90%;
+        margin: 0% 5px 2% 4% ;
+    }
+}
+@media (max-width:425px){
+    .video-container p{
+        font-size: 2.3rem;
+    }
+    video{
+        width: 90%;
+        margin: 0% 5px 2% 4.5% ;
+    }
+}
+@media (max-width:375px){
+    .video-container p{
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+    video{
+        width: 90%;
+        margin: 5% 5px 2% 4.5% ;
+    }
+}
+@media (max-width:320px){
+    .video-container p{
+        font-size: 1.7rem;
+        margin-top: 10%;
+    }
+    video{
+        width: 100%;
+        margin: 5% 5px 2% 0% ;
+    }
+}

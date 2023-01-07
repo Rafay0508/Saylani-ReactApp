@@ -1,0 +1,23 @@
+.contactus-container{
+    border: 2px solid rgb(50, 143, 38);
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.contactus-container h1{
+    font-size: 42px;
+}
+.contactus-container ul li{
+    font-size: 22px;
+}
+@media(max-width:320px){
+    .contactus-container h1{
+        font-size: 32px;
+    }
+    .contactus-container ul li{
+        font-size: 18px;
+    }
+}
